@@ -1,16 +1,13 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="" tvg-name="DW Español" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/sites/tvheute.at/dw.png" group-title="Noticias",DW Español
-https://dwamdstream104.akamaized.net/hls/live/2015530/dlhls_esp/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="RT en Español" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/sites/mi.tv/rt-espanol.png" group-title="Noticias",RT Noticias HD
-https://rt-esp.rttv.com/live/rtesp/playlist.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="France 24 Español" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/sites/mi.tv/france-24.png" group-title="Noticias",France 24 Español
-https://static.france24.com/live/F24_ES_LO_HLS/live_tv.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="Euronews Español" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/sites/mi.tv/euronews.png" group-title="Noticias",Euronews Español
-https://euronews-euronews-spanish-1-es.samsung.wurl.com/manifest/playlist.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="Red Bull TV" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/sites/tvguide.com/RedBullTV.png" group-title="Deportes",Red Bull TV Deportes
+#EXTINF:-1 tvg-id="RedBullTV" tvg-name="Red Bull TV" tvg-logo="https://raw.githubusercontent.com/victorego23/lista-tom-tv/main/logos/redbull.png" group-title="Deportes",Red Bull TV Deportes
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+
+#EXTINF:-1 tvg-id="France24" tvg-name="France 24 Español" tvg-logo="https://raw.githubusercontent.com/victorego23/lista-tom-tv/main/logos/france24.png" group-title="Noticias",France 24 Español HD
+https://stream.france24.com/hls/es/main.m3u8
+
+#EXTINF:-1 tvg-id="DW" tvg-name="DW Español" tvg-logo="https://raw.githubusercontent.com/victorego23/lista-tom-tv/main/logos/dw.png" group-title="Noticias",DW Español HD
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+
+#EXTINF:-1 tvg-id="Telesur" tvg-name="TeleSUR" tvg-logo="https://raw.githubusercontent.com/victorego23/lista-tom-tv/main/logos/telesur.png" group-title="Noticias",TeleSUR HD
+https://cdnhd.telesurtv.net/live/telesur_web/index.m3u8
