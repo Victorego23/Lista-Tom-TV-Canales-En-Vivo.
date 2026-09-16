@@ -1,13 +1,236 @@
-#EXTM3U
+#EXTM3U name="Tom TV Oficial"
 
-#EXTINF:-1 tvg-id="RedBullTV" tvg-name="Red Bull TV" tvg-logo="https://raw.githubusercontent.com/victorego23/lista-tom-tv/main/logos/redbull.png" group-title="Deportes",Red Bull TV Deportes
+# ================= NOTICIAS =================
+#EXTINF:-1 tvg-id="RTVE24h.es" tvg-name="RTVE 24h" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/RTVE24h.es.png" group-title="Noticias",RTVE 24h
+https://rtvelivestream.akamaized.net/hls/live/2034335/24h_gl/master.m3u8
+
+#EXTINF:-1 tvg-id="DW-Espanol" tvg-name="DW Español" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/DWTVGerman.de.png" group-title="Noticias",DW Español
+https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
+
+#EXTINF:-1 tvg-id="France24-Espanol" tvg-name="France 24 Español" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/France24.fr.png" group-title="Noticias",France 24 Español
+https://f24hls-i.akamaihd.net/hls/live/511197/F24_ES_LO_HLS/master_500.m3u8
+
+#EXTINF:-1 tvg-id="Euronews-Espanol" tvg-name="Euronews Español" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/Euronews.fr.png" group-title="Noticias",Euronews Español
+https://euronews-euronews-spanish-1-es.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="teleSUR" tvg-name="teleSUR" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/TeleSUR.ve.png" group-title="Noticias",teleSUR
+https://streaming.telesur.ultrallc.net/hls/live/tsur_es.m3u8
+
+#EXTINF:-1 tvg-id="PlutoTVNoticias" tvg-name="Pluto TV Noticias" tvg-logo="https://images.pluto.tv/channels/5f32a76f23b3f200078bfa79/featuredImage.jpg" group-title="Noticias",Pluto TV Noticias
+https://service-stitcher.clusters.pluto.tv/v1/stitch/hls/channel/5f32a76f23b3f200078bfa79/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=unknown&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=unknown
+
+#EXTINF:-1 tvg-id="EuroNewsWorld" tvg-name="Euronews Internacional" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/Euronews.fr.png" group-title="Noticias",Euronews Internacional
+https://euronews-spanish.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CNN-FAST" tvg-name="CNN FAST" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/CNN.us.png" group-title="Noticias",CNN FAST
+https://rakuten-cnnfast-1-es.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ElToroTV" tvg-name="El Toro TV" tvg-logo="https://raw.githubusercontent.com/TDTChannels/logos/master/tv/eltorotv.png" group-title="Noticias",El Toro TV
+https://stream.eltorotv.com/eltorotv/master.m3u8
+
+#EXTINF:-1 tvg-id="Canal26-AR" tvg-name="Canal 26 Argentina" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/Canal26.ar.png" group-title="Noticias",Canal 26 Argentina
+https://live-01-02-canal26.secure.footprint.net/live/master.m3u8
+
+#EXTINF:-1 tvg-id="TN-Argentina" tvg-name="TN Noticias" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/TodoNoticias.ar.png" group-title="Noticias",TN Noticias
+https://stream.tn.com.ar/live/tn/index.m3u8
+
+#EXTINF:-1 tvg-id="C5N-AR" tvg-name="C5N" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/C5N.ar.png" group-title="Noticias",C5N
+https://live-01-01-c5n.secure.footprint.net/live/master.m3u8
+
+#EXTINF:-1 tvg-id="TVPeru-Noticias" tvg-name="TV Perú Noticias" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/TVPeruNoticias.pe.png" group-title="Noticias",TV Perú Noticias
+https://cdnhd.iblups.com/hls/tvperunoticias.m3u8
+
+#EXTINF:-1 tvg-id="CanalCongreso-MX" tvg-name="Canal del Congreso" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/CanaldelCongreso.mx.png" group-title="Noticias",Canal del Congreso
+https://live.canaldelcongreso.gob.mx/live/congreso.m3u8
+
+#EXTINF:-1 tvg-id="AlJazeera-ES" tvg-name="Al Jazeera Español" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/AlJazeeraEnglish.qa.png" group-title="Noticias",Al Jazeera Español
+https://live-hls-web-aje.getaj.net/AJE/04.m3u8
+
+
+# ================= CINE Y PELÍCULAS =================
+#EXTINF:-1 tvg-id="RuntimeCine" tvg-name="Runtime Cine y Series" tvg-logo="https://raw.githubusercontent.com/TDTChannels/logos/master/tv/runtimecineyseries.png" group-title="Cine",Runtime Cine y Series
+https://amg01448-cinedigm-runtimecinees-samsunges-s1192.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RuntimeAccion" tvg-name="Runtime Acción" tvg-logo="https://raw.githubusercontent.com/TDTChannels/logos/master/tv/runtimeaccion.png" group-title="Cine",Runtime Acción
+https://amg01448-cinedigm-runtimeacciones-samsunges-4r0c9.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RuntimeComedia" tvg-name="Runtime Comedia" tvg-logo="https://raw.githubusercontent.com/TDTChannels/logos/master/tv/runtimecomedia.png" group-title="Cine",Runtime Comedia
+https://amg01448-cinedigm-runtimecomediaes-samsunges-pyl69.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RuntimeCrimen" tvg-name="Runtime Crimen" tvg-logo="https://raw.githubusercontent.com/TDTChannels/logos/master/tv/runtimecrimen.png" group-title="Cine",Runtime Crimen
+https://amg01448-cinedigm-runtimecrimenes-samsunges-b893a.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RuntimeRomance" tvg-name="Runtime Romance" tvg-logo="https://raw.githubusercontent.com/TDTChannels/logos/master/tv/runtimeromance.png" group-title="Cine",Runtime Romance
+https://amg01448-cinedigm-runtimeromancees-samsunges-oalv4.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="PlutoCineAccion" tvg-name="Pluto TV Cine Acción" tvg-logo="https://images.pluto.tv/channels/5f32a76f23b3f200078bfa7a/featuredImage.jpg" group-title="Cine",Pluto TV Cine Acción
+https://service-stitcher.clusters.pluto.tv/v1/stitch/hls/channel/5f32a76f23b3f200078bfa7a/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=unknown&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=unknown
+
+#EXTINF:-1 tvg-id="PlutoCineEstelar" tvg-name="Pluto TV Cine Estelar" tvg-logo="https://images.pluto.tv/channels/5f32a76f23b3f200078bfa7b/featuredImage.jpg" group-title="Cine",Pluto TV Cine Estelar
+https://service-stitcher.clusters.pluto.tv/v1/stitch/hls/channel/5f32a76f23b3f200078bfa7b/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=unknown&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=unknown
+
+#EXTINF:-1 tvg-id="PlutoCineDrama" tvg-name="Pluto TV Cine Drama" tvg-logo="https://images.pluto.tv/channels/5f32a76f23b3f200078bfa7c/featuredImage.jpg" group-title="Cine",Pluto TV Cine Drama
+https://service-stitcher.clusters.pluto.tv/v1/stitch/hls/channel/5f32a76f23b3f200078bfa7c/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=unknown&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=unknown
+
+#EXTINF:-1 tvg-id="PlutoCineTerror" tvg-name="Pluto TV Cine Terror" tvg-logo="https://images.pluto.tv/channels/5f32a76f23b3f200078bfa7d/featuredImage.jpg" group-title="Cine",Pluto TV Cine Terror
+https://service-stitcher.clusters.pluto.tv/v1/stitch/hls/channel/5f32a76f23b3f200078bfa7d/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=unknown&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=unknown
+
+#EXTINF:-1 tvg-id="PlutoCineSciFi" tvg-name="Pluto TV Sci-Fi" tvg-logo="https://images.pluto.tv/channels/5f32a76f23b3f200078bfa7e/featuredImage.jpg" group-title="Cine",Pluto TV Sci-Fi
+https://service-stitcher.clusters.pluto.tv/v1/stitch/hls/channel/5f32a76f23b3f200078bfa7e/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=unknown&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=unknown
+
+#EXTINF:-1 tvg-id="RakutenCine" tvg-name="Rakuten TV Películas" tvg-logo="https://raw.githubusercontent.com/TDTChannels/logos/master/tv/rakutentvpeliculas.png" group-title="Cine",Rakuten TV Películas
+https://rakuten-actionmovies-1-eu.rakuten.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RakutenComedia" tvg-name="Rakuten TV Comedia" tvg-logo="https://raw.githubusercontent.com/TDTChannels/logos/master/tv/rakutentvcomedias.png" group-title="Cine",Rakuten TV Comedia
+https://rakuten-comedy-1-eu.rakuten.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Filmstream" tvg-name="Filmstream Cine" tvg-logo="https://raw.githubusercontent.com/TDTChannels/logos/master/tv/filmstream.png" group-title="Cine",Filmstream Cine
+https://spolecznosc-filmstream-1-es.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="PlexPeliculas" tvg-name="Plex Películas" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/Plex.png" group-title="Cine",Plex Películas
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=2332
+
+#EXTINF:-1 tvg-id="CineWestern" tvg-name="Cine Western" tvg-logo="https://raw.githubusercontent.com/TDTChannels/logos/master/tv/runtimetrash.png" group-title="Cine",Cine Western
+https://amg01448-cinedigm-runtimewesternes-samsunges-g9j5b.amagi.tv/playlist.m3u8
+
+
+# ================= GENERALISTAS Y ENTRETENIMIENTO =================
+#EXTINF:-1 tvg-id="La1.es" tvg-name="La 1 RTVE" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/La1.es.png" group-title="Entretenimiento",La 1 RTVE
+https://rtvelivestream.akamaized.net/hls/live/2034334/la1_gl/master.m3u8
+
+#EXTINF:-1 tvg-id="La2.es" tvg-name="La 2 RTVE" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/La2.es.png" group-title="Entretenimiento",La 2 RTVE
+https://rtvelivestream.akamaized.net/hls/live/2034337/la2_gl/master.m3u8
+
+#EXTINF:-1 tvg-id="TVPeru.pe" tvg-name="TV Perú" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/TVPeru.pe.png" group-title="Entretenimiento",TV Perú
+https://cdnhd.iblups.com/hls/tvperuhd.m3u8
+
+#EXTINF:-1 tvg-id="Canal11-MX" tvg-name="Canal Once México" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/CanalOnce.mx.png" group-title="Entretenimiento",Canal Once México
+https://canalonce.tv/hls/once_720.m3u8
+
+#EXTINF:-1 tvg-id="CanalCapital-CO" tvg-name="Canal Capital" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/CanalCapital.co.png" group-title="Entretenimiento",Canal Capital
+https://canalcapital.co/hls/live/master.m3u8
+
+#EXTINF:-1 tvg-id="PlutoSeries" tvg-name="Pluto TV Series" tvg-logo="https://images.pluto.tv/channels/5f32a76f23b3f200078bfa7f/featuredImage.jpg" group-title="Entretenimiento",Pluto TV Series
+https://service-stitcher.clusters.pluto.tv/v1/stitch/hls/channel/5f32a76f23b3f200078bfa7f/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=unknown&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=unknown
+
+#EXTINF:-1 tvg-id="PlutoComedia" tvg-name="Pluto TV Comedia" tvg-logo="https://images.pluto.tv/channels/5f32a76f23b3f200078bfa80/featuredImage.jpg" group-title="Entretenimiento",Pluto TV Comedia
+https://service-stitcher.clusters.pluto.tv/v1/stitch/hls/channel/5f32a76f23b3f200078bfa80/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=unknown&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=unknown
+
+#EXTINF:-1 tvg-id="PlutoAnime" tvg-name="Pluto TV Anime" tvg-logo="https://images.pluto.tv/channels/5f32a76f23b3f200078bfa81/featuredImage.jpg" group-title="Entretenimiento",Pluto TV Anime
+https://service-stitcher.clusters.pluto.tv/v1/stitch/hls/channel/5f32a76f23b3f200078bfa81/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=unknown&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=unknown
+
+#EXTINF:-1 tvg-id="PlutoRetro" tvg-name="Pluto TV Retro" tvg-logo="https://images.pluto.tv/channels/5f32a76f23b3f200078bfa82/featuredImage.jpg" group-title="Entretenimiento",Pluto TV Retro
+https://service-stitcher.clusters.pluto.tv/v1/stitch/hls/channel/5f32a76f23b3f200078bfa82/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=unknown&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=unknown
+
+#EXTINF:-1 tvg-id="PlutoMisterio" tvg-name="Pluto TV Misterios" tvg-logo="https://images.pluto.tv/channels/5f32a76f23b3f200078bfa83/featuredImage.jpg" group-title="Entretenimiento",Pluto TV Misterios
+https://service-stitcher.clusters.pluto.tv/v1/stitch/hls/channel/5f32a76f23b3f200078bfa83/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=unknown&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=unknown
+
+#EXTINF:-1 tvg-id="RuntimeSeries" tvg-name="Runtime Series" tvg-logo="https://raw.githubusercontent.com/TDTChannels/logos/master/tv/runtimeseries.png" group-title="Entretenimiento",Runtime Series
+https://amg01448-cinedigm-runtimeserieses-samsunges-x6304.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RakutenDramas" tvg-name="Rakuten TV Dramas" tvg-logo="https://raw.githubusercontent.com/TDTChannels/logos/master/tv/rakutentvdramas.png" group-title="Entretenimiento",Rakuten TV Dramas
+https://rakuten-dramamovies-1-eu.rakuten.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="PlutoTelenovelas" tvg-name="Pluto TV Novelas" tvg-logo="https://images.pluto.tv/channels/5f32a76f23b3f200078bfa84/featuredImage.jpg" group-title="Entretenimiento",Pluto TV Novelas
+https://service-stitcher.clusters.pluto.tv/v1/stitch/hls/channel/5f32a76f23b3f200078bfa84/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=unknown&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=unknown
+
+#EXTINF:-1 tvg-id="Telemundo-AlDia" tvg-name="Telemundo Al Día" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/Telemundo.us.png" group-title="Entretenimiento",Telemundo Al Día
+https://telemundo-aldia-1-us.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Univision-247" tvg-name="ViX Novelas" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/ViX.us.png" group-title="Entretenimiento",ViX Novelas
+https://univision-vixnovelas-1-us.samsung.wurl.tv/playlist.m3u8
+
+
+# ================= DEPORTES =================
+#EXTINF:-1 tvg-id="RedBullTV" tvg-name="Red Bull TV" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/RedBullTV.at.png" group-title="Deportes",Red Bull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 
-#EXTINF:-1 tvg-id="France24" tvg-name="France 24 Español" tvg-logo="https://raw.githubusercontent.com/victorego23/lista-tom-tv/main/logos/france24.png" group-title="Noticias",France 24 Español HD
-https://stream.france24.com/hls/es/main.m3u8
+#EXTINF:-1 tvg-id="Teledeporte.es" tvg-name="Teledeporte RTVE" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/Teledeporte.es.png" group-title="Deportes",Teledeporte RTVE
+https://rtvelivestream.akamaized.net/hls/live/2034336/tdp_gl/master.m3u8
 
-#EXTINF:-1 tvg-id="DW" tvg-name="DW Español" tvg-logo="https://raw.githubusercontent.com/victorego23/lista-tom-tv/main/logos/dw.png" group-title="Noticias",DW Español HD
-https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+#EXTINF:-1 tvg-id="RealMadridTV.es" tvg-name="Real Madrid TV" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/RealMadridTV.es.png" group-title="Deportes",Real Madrid TV
+https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8
 
-#EXTINF:-1 tvg-id="Telesur" tvg-name="TeleSUR" tvg-logo="https://raw.githubusercontent.com/victorego23/lista-tom-tv/main/logos/telesur.png" group-title="Noticias",TeleSUR HD
-https://cdnhd.telesurtv.net/live/telesur_web/index.m3u8
+#EXTINF:-1 tvg-id="PlutoDeportes" tvg-name="Pluto TV Deportes" tvg-logo="https://images.pluto.tv/channels/5f32a76f23b3f200078bfa85/featuredImage.jpg" group-title="Deportes",Pluto TV Deportes
+https://service-stitcher.clusters.pluto.tv/v1/stitch/hls/channel/5f32a76f23b3f200078bfa85/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=unknown&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=unknown
+
+#EXTINF:-1 tvg-id="PlutoFitness" tvg-name="Pluto TV Fitness" tvg-logo="https://images.pluto.tv/channels/5f32a76f23b3f200078bfa86/featuredImage.jpg" group-title="Deportes",Pluto TV Fitness
+https://service-stitcher.clusters.pluto.tv/v1/stitch/hls/channel/5f32a76f23b3f200078bfa86/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=unknown&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=unknown
+
+#EXTINF:-1 tvg-id="FuelTV" tvg-name="Fuel TV Acción" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/FuelTV.pt.png" group-title="Deportes",Fuel TV Acción
+https://fueltv-rakuten-1-eu.rakuten.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Motorvision" tvg-name="Motorvision en Español" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/MotorvisionTV.de.png" group-title="Deportes",Motorvision en Español
+https://motorvision-spanish-1-eu.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="HardKnocksFighting" tvg-name="Hard Knocks MMA" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/FightNetwork.ca.png" group-title="Deportes",Hard Knocks MMA
+https://distro-hardknocks-1-us.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="WorldPokerTour" tvg-name="World Poker Tour" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/WorldPokerTour.us.png" group-title="Deportes",World Poker Tour
+https://wpt-spanish-1-us.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="GTV-Deportes" tvg-name="Global Deportes" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/RedBullTV.at.png" group-title="Deportes",Global Deportes
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=2550
+
+
+# ================= DOCUMENTALES Y CULTURA =================
+#EXTINF:-1 tvg-id="PlutoDocumentales" tvg-name="Pluto TV Documentales" tvg-logo="https://images.pluto.tv/channels/5f32a76f23b3f200078bfa87/featuredImage.jpg" group-title="Cultura",Pluto TV Documentales
+https://service-stitcher.clusters.pluto.tv/v1/stitch/hls/channel/5f32a76f23b3f200078bfa87/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=unknown&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=unknown
+
+#EXTINF:-1 tvg-id="PlutoNaturaleza" tvg-name="Pluto TV Naturaleza" tvg-logo="https://images.pluto.tv/channels/5f32a76f23b3f200078bfa88/featuredImage.jpg" group-title="Cultura",Pluto TV Naturaleza
+https://service-stitcher.clusters.pluto.tv/v1/stitch/hls/channel/5f32a76f23b3f200078bfa88/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=unknown&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=unknown
+
+#EXTINF:-1 tvg-id="RuntimeNaturaleza" tvg-name="Runtime Naturaleza" tvg-logo="https://raw.githubusercontent.com/TDTChannels/logos/master/tv/runtimetrash.png" group-title="Cultura",Runtime Naturaleza
+https://amg01448-cinedigm-runtimedocues-samsunges-32v7u.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="LoveNature-ES" tvg-name="Love Nature" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/LoveNature.ca.png" group-title="Cultura",Love Nature
+https://lovenature-spanish-1-eu.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="DocuBay-ES" tvg-name="DocuBay" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/DocuBay.in.png" group-title="Cultura",DocuBay
+https://docubay-spanish-1-eu.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CanalCultural-PE" tvg-name="IPE Cultural" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/CanalIPe.pe.png" group-title="Cultura",IPE Cultural
+https://cdnhd.iblups.com/hls/ipehd.m3u8
+
+#EXTINF:-1 tvg-id="Canal22-MX" tvg-name="Canal 22 México" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/Canal22.mx.png" group-title="Cultura",Canal 22 México
+https://canal22.tv/hls/canal22.m3u8
+
+
+# ================= INFANTIL Y FAMILIA =================
+#EXTINF:-1 tvg-id="Clan.es" tvg-name="Clan TV RTVE" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/Clan.es.png" group-title="Infantil",Clan TV RTVE
+https://rtvelivestream.akamaized.net/hls/live/2034338/clan_gl/master.m3u8
+
+#EXTINF:-1 tvg-id="PlutoKids" tvg-name="Pluto TV Kids" tvg-logo="https://images.pluto.tv/channels/5f32a76f23b3f200078bfa89/featuredImage.jpg" group-title="Infantil",Pluto TV Kids
+https://service-stitcher.clusters.pluto.tv/v1/stitch/hls/channel/5f32a76f23b3f200078bfa89/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=unknown&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=unknown
+
+#EXTINF:-1 tvg-id="PlutoJunior" tvg-name="Pluto TV Junior" tvg-logo="https://images.pluto.tv/channels/5f32a76f23b3f200078bfa8a/featuredImage.jpg" group-title="Infantil",Pluto TV Junior
+https://service-stitcher.clusters.pluto.tv/v1/stitch/hls/channel/5f32a76f23b3f200078bfa8a/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=unknown&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=unknown
+
+#EXTINF:-1 tvg-id="PlutoNick" tvg-name="Pluto TV Nick Clásico" tvg-logo="https://images.pluto.tv/channels/5f32a76f23b3f200078bfa8b/featuredImage.jpg" group-title="Infantil",Pluto TV Nick Clásico
+https://service-stitcher.clusters.pluto.tv/v1/stitch/hls/channel/5f32a76f23b3f200078bfa8b/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=unknown&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=unknown
+
+#EXTINF:-1 tvg-id="PocoyoTV" tvg-name="Pocoyo TV" tvg-logo="https://raw.githubusercontent.com/TDTChannels/logos/master/tv/pocoyo.png" group-title="Infantil",Pocoyo TV
+https://rakuten-pocoyo-1-es.rakuten.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="DuckTV" tvg-name="Duck TV Niños" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/DuckTV.sk.png" group-title="Infantil",Duck TV Niños
+https://ducktv-spanish-1-eu.samsung.wurl.tv/playlist.m3u8
+
+
+# ================= MÚSICA =================
+#EXTINF:-1 tvg-id="ClubbingTV" tvg-name="Clubbing TV Electrónica" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/ClubbingTV.fr.png" group-title="Música",Clubbing TV Electrónica
+https://clubbingtv-es-rakuten.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TraceUrban" tvg-name="Trace Latina" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/TraceLatina.fr.png" group-title="Música",Trace Latina
+https://tracelatina-es-rakuten.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="PlutoMusica" tvg-name="Pluto TV Conciertos" tvg-logo="https://images.pluto.tv/channels/5f32a76f23b3f200078bfa8c/featuredImage.jpg" group-title="Música",Pluto TV Conciertos
+https://service-stitcher.clusters.pluto.tv/v1/stitch/hls/channel/5f32a76f23b3f200078bfa8c/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=unknown&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=unknown
+
+#EXTINF:-1 tvg-id="StingrayRetro" tvg-name="Stingray Retro Éxitos" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/StingrayRetro.ca.png" group-title="Música",Stingray Retro Éxitos
+https://stingray-retro-1-es.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="QelloConcerts" tvg-name="Qello Concerts" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/StingrayQello.ca.png" group-title="Música",Qello Concerts
+https://qello-spanish-1-eu.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="LoupeArtMusic" tvg-name="Loupe Música & Arte" tvg-logo="https://raw.githubusercontent.com/iptv-org/epg/master/logos/RedBullTV.at.png" group-title="Música",Loupe Música & Arte
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=1498
